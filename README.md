@@ -1,2 +1,2 @@
-# Learn_SwiftUI
+# Learn-SwiftUI
 Learning SwiftUI
