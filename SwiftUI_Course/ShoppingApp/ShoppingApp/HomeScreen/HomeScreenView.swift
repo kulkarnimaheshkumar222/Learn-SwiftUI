@@ -9,8 +9,10 @@ import SwiftUI
 
 struct HomeScreenView: View {
     var body: some View {
-        Text("Home Screen")
-            .font(.system(size: 40))
+        NavigationView {
+            
+        }.navigationTitle("Home Screen")
+            
     }
 }
 
