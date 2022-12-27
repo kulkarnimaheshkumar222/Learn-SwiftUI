@@ -9,19 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-        Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-        Text("Greetings")
-                .font(.largeTitle)
-                .fontWeight(.semibold)
-                .foregroundColor(Color.purple)
-                .padding()
-                .background(Color.orange.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .orange.opacity(0.4), radius: 5, x: 10, y: 10)
-                
+        VStack(alignment: .leading) {
+            TextView(text: "Hello there!", color: .green)
+            
+            TextView(text: "Welcome to swift Programming", color: .gray)
+            
+            TextView(text: "Are you Ready to?", color: .yellow)
+            
+            TextView(text: "Start exploring", color: .red)
+            
+            TextView(text: "Boom !!", color: .purple)
+            
         }
          .padding()
     }
@@ -30,5 +28,20 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct TextView: View {
+    let text: String
+    let color:Color
+    var body: some View {
+        Text(text)
+            .font(.title2)
+            .fontWeight(.semibold)
+            .foregroundColor(Color.white)
+            .padding()
+            .background(color.opacity(0.8))
+            .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
+            .shadow(color: color.opacity(0.4), radius: 5, x: 10, y: 10)
     }
 }
