@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  GreetingsApp
+
+  Created by Mahesh Kulkarni on 07/01/23.
+  
+*/
+"Greeting" = "Greeting";
+"Hello there!" = "Hello there!";
+"Welcome to swift Programming" = "Welcome to swift Programming";
+"Are you Ready to?" = "Are you Ready to?" ;
+"Start exploring" = "Start exploring";
+"Boom !!" = "Boom !!";
+"Exploring iOS 15 Programming !!" = "Exploring iOS 15 Programming !!";
+"Enjoy Learning SwiftUI !!" = "Enjoy Learning SwiftUI !!";
+"Explore Swift Programming !!" = "Explore Swift Programming !!";
+"Let's Learn MVVM Pattern !!" = "Let's Learn MVVM Pattern !!";
